@@ -5,7 +5,7 @@
 
 <p>**Suite of packages for the analysis of event logs (bupar)**
 
-![alt_text](images/Manual-0.png "image_tooltip")
+![alt_text](images/Manual-d0.png "image_tooltip")
 
 
 **Introduction \
@@ -43,13 +43,8 @@ This manual contains the steps necessary to make a typical analysis of log files
 <h3>Description of the architecture of the Bupar package suite:</h3>
 
 
-<h3>
+![alt_text](images/Manual-d1.png "image_tooltip")
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copie-de2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Copie-de2.png "image_tooltip")
- </h3>
 
 
 
