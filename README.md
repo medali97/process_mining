@@ -2,7 +2,7 @@
 <h2>Business Process Analysis in R User Manual</h2>
 
 
-<h3>Suite of packages for the analysis of event logs (bupar)</h3>
+<h3>R Suite of packages for the analysis of event logs (bupar)</h3>
 
 ![alt_text](images/Manuel-d0.png "image_tooltip")
 
@@ -116,4 +116,25 @@ There are different types of problem that can be encountered concerning the valu
 
 ![alt_text](images/Manuel-d4.png "image_tooltip")
 
-<!-- Docs to Markdown version 1.0β17 -->
+
+The method to import the dataset if it is in XES format is:
+
+
+```
+read_xes("chemin_complet_menant_au_dataset") 	
+```
+
+
+specifying the path of the file. Otherwise if it is in another format you import it with :
+
+
+```
+read.table("lechemin") ou read.csv("") …
+```
+
+
+Finally, to execute the code, you must open it with RStudio for example (recommended), specify the correct paths for the data sets in the read_xes functions (line 43 to 50). Then, either select everything and click on the run button (to run everything at once); either position yourself on a line and do “ctrl + enter” (this to execute the lines one by one).
+
+
+## II.	 PREPROCESSING and III. Analyzes :
+
