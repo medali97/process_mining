@@ -5,7 +5,7 @@
 
 <p>**Suite of packages for the analysis of event logs (bupar)**
 
-![alt_text](images/Manual-d0.png "image_tooltip")
+![alt_text](images/Manuel-d0.png "image_tooltip")
 
 
 **Introduction \
@@ -43,7 +43,7 @@ This manual contains the steps necessary to make a typical analysis of log files
 <h3>Description of the architecture of the Bupar package suite:</h3>
 
 
-![alt_text](images/Manual-d1.png "image_tooltip")
+![alt_text](images/Manuel-d1.png "image_tooltip")
 
 
 
