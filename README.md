@@ -67,7 +67,7 @@ There is a very well-known approach in the field of Process Mining and Data scie
 
 
 
-I. **EXTRACTION:
+I. **EXTRACTION:**
 
 This part is very important, it allows to extract the data and transform them into datasets which can be treated in the analysis in Mining process, these transformed datasets must meet very specific criteria, for example they must have columns as **Case_id or activity_id…** according to the usefulness of each column and the criteria which it must follow:
 
