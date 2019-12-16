@@ -47,5 +47,22 @@ This manual contains the steps necessary to make a typical analysis of log files
 
 
 
+<h3>What to do ? :</h3>
+
+
+There is a very well-known approach in the field of Process Mining and Data science to start a project, here are the different stages and the corresponding results:
+
+
+
+1. **Extraction: **transform raw data into event data
+2. **Preprocessing:** enrich and filter event data
+1. **Aggregation** **: **remove redundant data
+2. **filtering** **:** display models according to process instances or events
+3. **Enrichment** **:**  add payload attributes
+3. **Analysis** : get useful information in the process
+1. **Organizational** : focus on the actors in a process and how they work together.
+2. **Control flow** : focus on the flow and structure of the process, for example (A patient's journey to the emergency room ).
+3. **Performance **: focuses on time and efficiency, for example (how long does it take before a patient can leave the ED? Or in what area or at what time of the day are the trains the most late?)
+4. **Further:** are there links between actors and performance issues? .
 
 <!-- Docs to Markdown version 1.0β17 -->
