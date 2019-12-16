@@ -66,31 +66,28 @@ There is a very well-known approach in the field of Process Mining and Data scie
 4. **Further:** are there links between actors and performance issues? .
 
 
-1. EXTRACTION:
+
+I. **EXTRACTION:
 
 This part is very important, it allows to extract the data and transform them into datasets which can be treated in the analysis in Mining process, these transformed datasets must meet very specific criteria, for example they must have columns as **Case_id or activity_id…** according to the usefulness of each column and the criteria which it must follow:
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copie-de0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/Manuel-d2.png "image_tooltip")
 
 
-**CASE_id : **contains unique values ​​that identify instances of the process.
+**CASE_id:** contains unique values that identify instances of the process.
 
 **Activity id :** Each instance of the process is a sequence of events which consists in doing a well defined activity and activity_id contains the label of this activity for example: the Eating activity
 
 ![alt_text](images/Manuel-d3.png "image_tooltip")
 
-**Activity instance Id : **this attribute designates the different instances of each activity during the events, for example someone can instantiate the sleeping activity and each instance of this activity has a unique identifier.
+**Activity instance Id :** this attribute designates the different instances of each activity during the events, for example someone can instantiate the sleeping activity and each instance of this activity has a unique identifier.
 
-**Lifecyle : **life cycle contains the different states of the activity instances such as start which indicates that this activity has just started, Pause which means that it is paused and complete which shows that this activity instance has ended.
+**Lifecyle :** life cycle contains the different states of the activity instances such as start which indicates that this activity has just started, Pause which means that it is paused and complete which shows that this activity instance has ended.
 
-**Timestamp : **allows you to record the exact moment of events ("date and time").
+**Timestamp :** allows you to record the exact moment of events ("date and time").
 
-**Ressource : **identifies the different actors in the process, i.e. those who did the activity or carried out the task, this column may be empty if the event log corresponds to only one actor.
+**Ressource :**  identifies the different actors in the process, i.e. those who did the activity or carried out the task, this column may be empty if the event log corresponds to only one actor.
 
 
 #### Creation of an event log:
@@ -115,7 +112,7 @@ The events log that bupar accepts must be in XES or CSV format or database, we c
 
 by specifying for each attribute of the table the corresponding column in the format of standard event logs.
 
-There are different types of problem that can be encountered concerning the values ​​of these attributes, for example if the CASE_id is not unique, we must do some cleaning to resolve the problem. One problem we encountered with our data sets is that there were two more columns that are useless, that the **CASE_id** was written **CASE_CONCEPT_NAME **and that the attribute **activity_instance_id **does not contain unique values. Here is one of our methods for cleaning:
+There are different types of problem that can be encountered concerning the values of these attributes, for example if the **CASE_id** is not unique, we must do some cleaning to resolve the problem. One problem we encountered with our data sets is that there were two more columns that are useless, that the **CASE_id** was written **CASE_CONCEPT_NAME** and that the attribute **activity_instance_id** does not contain unique values. Here is one of our methods for cleaning:
 
 
 <!-- Docs to Markdown version 1.0β17 -->
