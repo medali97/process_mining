@@ -1,35 +1,4 @@
 # process_mining
-you can run the code but there are some libraries that you need to download see the code
-
-
-[embed]https://github.com/medali97/process_mining/blob/master/First_Report_Y__Version_649_%20(14).pdf[/embed]
-
-# Embed PDF
-
-[![Plugin Version](https://img.shields.io/wordpress/plugin/v/dirtysuds-embed-pdf.svg)](https://wordpress.org/plugins/dirtysuds-embed-pdf/)
-[![License](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://wordpress.org/about/license/)
-[![Tested Version](https://img.shields.io/wordpress/v/dirtysuds-embed-pdf.svg)](https://wordpress.org/plugins/dirtysuds-embed-pdf/)
-[![Rating](https://img.shields.io/wordpress/plugin/r/dirtysuds-embed-pdf.svg)](https://wordpress.org/support/view/plugin-reviews/dirtysuds-embed-pdf)
-[![Downloads](https://img.shields.io/wordpress/plugin/dt/dirtysuds-embed-pdf.svg)](https://wordpress.org/plugins/dirtysuds-embed-pdf/)
-
-**Adds pseudo oembed support for PDF documents**
-
-Will embed a PDF file using Google Docs Viewer
-https://github.com/medali97/process_mining/blob/master/First_Report_Y__Version_649_%20(14).pdf
-https://drive.google.com/file/d/1gF7IBiXz8_WdXhlyXKT_idoYuziLRXUu/edit
-Simply include the URL for a PDF document on it's own line, or wrapped in the embed tag like `[embed]https://github.com/medali97/process_mining/blob/master/First_Report_Y__Version_649_%20(14).pdf[/embed]` and the plugin will embed the PDF into the page using the Google Docs Viewer embed code.
-
-The url must end with `.pdf`
-
-<!----- Conversion time: 3.081 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
 
 Conversion notes:
 
@@ -54,7 +23,7 @@ Conversion notes:
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
-<h2>**Manuel d'utilisation de Business Process Analysis in R **</h2>
+<h2>Manuel d'utilisation de Business Process Analysis in R </h2>
 
 
 <p>Suites des packages pour l'analyse des events logs (bupar)
@@ -63,16 +32,6 @@ Conversion notes:
 
 
 ![alt_text](images/Manuel-d0.png "image_tooltip")
-
-
-<h2>
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Manuel-d1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Manuel-d1.png "image_tooltip")
-</h2>
-
 
 <h3>Introduction</h3>
 
