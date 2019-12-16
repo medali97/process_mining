@@ -21,9 +21,7 @@ Simply include the URL for a PDF document on it's own line, or wrapped in the em
 
 The url must end with `.pdf`
 
-<!----- Conversion time: 5.571 seconds.
-<!----- Conversion time: 0.6 seconds.
-<!----- Conversion time: 1.334 seconds.
+<!----- Conversion time: 3.081 seconds.
 
 
 Using this Markdown file:
@@ -36,7 +34,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β17
-* Mon Dec 16 2019 03:04:01 GMT-0800 (PST)
+* Mon Dec 16 2019 03:06:35 GMT-0800 (PST)
 * Source doc: https://docs.google.com/open?id=1JT3W-4urmcIay4O_hRGSXFODmRD5ZQB219OiKaBOMY4
 * This is a partial selection. Check to make sure intra-doc links work.
 * This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
@@ -56,11 +54,10 @@ Conversion notes:
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
+<h2>**Manuel d'utilisation de Business Process Analysis in R **</h2>
 
-## **Manuel d'utilisation de Business Process Analysis in R **
 
-
-### Suites des packages pour l'analyse des events logs (bupar)
+<p>Suites des packages pour l'analyse des events logs (bupar)
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Manuel-d0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
@@ -68,30 +65,30 @@ Conversion notes:
 ![alt_text](images/Manuel-d0.png "image_tooltip")
 
 
-
-## 
+<h2>
 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Manuel-d1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/Manuel-d1.png "image_tooltip")
+</h2>
 
 
+<h3>Introduction</h3>
 
-### Introduction
 
 **Ce manuel contient les étapes nécessaires pour faire une analyse typique des fichiers log à l'aide de bupar sur R. Ci-dessous les liens nécessaire pour aller plus loin ou pour voir les tutoriels nécessaires pour bien maîtriser ce sujet .**
 
+<h4>LES LIENS :</h4>
 
-#### LES LIENS :
 
 
 
 *   [https://www.coursera.org/learn/process-mining/](https://www.coursera.org/learn/process-mining/) : UN TUTORIEL TRÈS COMPLET SUR LE PROCESS MINING EN UTILISANT PROMTOOLS  QUI EST LE LOGICIEL LE PLUS CONNU POUR CE DOMAINE .
 *   [https://www.bupar.net/getting_started.html](https://www.bupar.net/getting_started.html) : LE SITE DE BUPAR QUI CONTIENT UN MANUEL D'UTILISATION POUR IMPLÉMENTER LES DIFFÉRENTES MÉTHODES .
 
+<h4>Les outils pour commencer :</h4>
 
-#### Les outils pour commencer :
 
 
 
@@ -111,20 +108,20 @@ Conversion notes:
     8. processmonitR  : [https://cran.r-project.org/web/packages/processmonitR/processmonitR.pdf](https://cran.r-project.org/web/packages/processmonitR/processmonitR.pdf)
     9. stringi : [https://cran.r-project.org/web/packages/stringi/stringi.pdf](https://cran.r-project.org/web/packages/stringi/stringi.pdf)
 
+<h3>Description de l’architecture de la suite de packages Bupar:</h3>
 
-### Description de l’architecture de la suite de packages Bupar:
 
-
-### 
+<h3>
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Manuel-d2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/Manuel-d2.png "image_tooltip")
- 
+ </h3>
 
 
-### Que faire ? :
+<h3>Que faire ? :</h3>
+
 
 Il y a une approche très connue dans le domaine du Process Mining et Data science pour commencer un projet ,voici les différentes étapes et les résultats correspondants :
 
@@ -170,8 +167,8 @@ Cette partie est très importante , elle permet d'extraire les données  et de l
 
 **Ressource : **identifie les différents acteurs du processus , c’est-à-dire ceux qui ont fait l'activité ou ont effectué la tâche , cette colonne peut-être vide si l’event log correspond à un seul acteur .
 
+<h4>Création d’un event log :</h4>
 
-#### Création d’un event log :
 
 Les events log que bupar accepte doivent être sous-format XES ou CSV ou base de données ,on peut structurer le dataset à l’aide de la fonction :
 
@@ -221,8 +218,8 @@ read.table("lechemin") ou read.csv("") …
 
 Enfin, pour exécuter le code, vous devez l’ouvrir avec RStudio par exemple (conseillé), spécifier les bons chemins des data sets dans les fonctions read_xes (ligne 43 à 50). Puis, soit tout sélectionner et cliquer sur le bouton run (pour tout exécuter en une fois); soit se positionner sur une ligne et faire “ctrl + enter” (ceci pour exécuter les lignes une par une).
 
+<h2>II.	PREPROCESSING et III.	Analyses : </h2>
 
-## II.	PREPROCESSING et III.	Analyses : 
 
 
     Ceci n’est pas une documentation des packages mais une présentation de l’approche et comment faire. Pour avoir plus de détails, veuillez aller sur le site bupar.net 
