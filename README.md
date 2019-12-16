@@ -1,4 +1,3 @@
-# process_mining
 
 <h2>Business Process Analysis in R User Manual</h2>
 
@@ -67,6 +66,7 @@ There is a very well-known approach in the field of Process Mining and Data scie
 
 
 
+
 I. **EXTRACTION:**
 
 This part is very important, it allows to extract the data and transform them into datasets which can be treated in the analysis in Mining process, these transformed datasets must meet very specific criteria, for example they must have columns as **Case_id or activity_id…** according to the usefulness of each column and the criteria which it must follow:
@@ -114,5 +114,6 @@ by specifying for each attribute of the table the corresponding column in the fo
 
 There are different types of problem that can be encountered concerning the values of these attributes, for example if the **CASE_id** is not unique, we must do some cleaning to resolve the problem. One problem we encountered with our data sets is that there were two more columns that are useless, that the **CASE_id** was written **CASE_CONCEPT_NAME** and that the attribute **activity_instance_id** does not contain unique values. Here is one of our methods for cleaning:
 
+![alt_text](images/Manuel-d4.png "image_tooltip")
 
 <!-- Docs to Markdown version 1.0β17 -->
